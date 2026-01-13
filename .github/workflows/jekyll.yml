@@ -43,7 +43,6 @@ jobs:
         uses: actions/upload-pages-artifact@v4
 
   deploy:
-    if: github.repository == github.event.repository.full_name
     permissions:
       pages: write
       id-token: write
